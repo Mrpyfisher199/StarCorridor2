@@ -129,7 +129,7 @@ class plane(pygame.sprite.Sprite):
 		fire = Fire(self.rect.x)
 		return self.health
 
-#Train behind the space ship.
+#Trail behind the space ship.
 class Fire(pygame.sprite.Sprite):
 	def __init__(self,x):
 		pygame.sprite.Sprite.__init__(self)

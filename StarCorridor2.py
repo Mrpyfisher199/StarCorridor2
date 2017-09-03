@@ -20,7 +20,7 @@ except Exception as e:
 	an = raw_input("> ").upper()
 	if an != "N":
 		print "Starting"
-		os.system("sudo -H pip install pygame")
+		os.system("sudo -H easy_install pygame")
 		try:
 			import pygame
 			print 'You have successfully installed PYGAME!!!'
